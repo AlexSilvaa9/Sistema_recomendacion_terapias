@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="977C11F6-E7A9-D0BB-F1B5-DEA192C31D95" mainViewID="8001F7ED-0139-FA27-05F0-2B2A1F35A338">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:05:08 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

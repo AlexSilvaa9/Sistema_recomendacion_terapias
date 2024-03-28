@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Terapia_a_prescribir" directorySegmentName="seg_0" id="C185A63D-6349-02D9-788C-6978C6B65316">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:27:33 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<sourcePk>3E52A94A-6011-CD8D-3727-095AAF00E649</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>54F66B56-6A21-E3C6-C074-CA27214AD51C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AF5A1ED2-8574-81A5-5AE8-A9C4D2FCB92F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

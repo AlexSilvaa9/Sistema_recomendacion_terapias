@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<InheritanceRelation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="CCCF809C-BF84-04A4-9FB4-33954AB409D3">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:11:02 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>65716995-1EB7-40E2-6248-6497238A77F4</sourceEntity>
+<targetEntity>D608A6B1-18B6-8D76-3B99-64494B40776D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</InheritanceRelation>

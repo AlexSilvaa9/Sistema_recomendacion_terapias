@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="biodbPractica1" id="E21954BF-865F-91FC-96B0-FBBED9853ECE" version="3.5">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:05:08 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E21954BF-865F-91FC-96B0-FBBED9853ECE</designId>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="D788AFA4-66C7-8F4F-29D0-389D38FB4687">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:34:24 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<sourcePk>D147D859-F437-FB29-C879-20F3456144BE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B752F717-D3AF-FAB8-279F-D44F96C503C3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8EAA18BB-4E7D-A983-5943-AB59B7CDCC67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

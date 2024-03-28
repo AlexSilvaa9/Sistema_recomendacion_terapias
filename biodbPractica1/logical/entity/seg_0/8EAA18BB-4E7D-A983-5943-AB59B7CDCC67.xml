@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8EAA18BB-4E7D-A983-5943-AB59B7CDCC67" name="Enfermedad">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:31:52 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_enfermedad" id="B051C576-FB69-7C0E-5F2E-1F3B1F9A3813">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:32:02 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="336E8DC4-F6C8-0080-5E14-F0FF06D6698B">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:32:19 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dni" id="EF514077-0D92-0934-7D81-A78DF12FB6C5">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:34:24 UTC</createdTime>
+<generatorID>D788AFA4-66C7-8F4F-29D0-389D38FB4687</generatorID>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F0C71F1D-E0CC-53CC-F8D3-065F041DBB04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2820E239-8CC3-744B-129A-0EE9FA037C1C" name="Enfermedad PK">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:32:17 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<engineerTo>
+<item key="FC668F3E-DA83-BAD4-B096-CA13E48E047B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B051C576-FB69-7C0E-5F2E-1F3B1F9A3813</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

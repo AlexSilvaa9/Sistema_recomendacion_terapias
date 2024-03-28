@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="FC668F3E-DA83-BAD4-B096-CA13E48E047B" mainViewID="9E87ABB5-3055-D068-7645-4A722DACDB16">
+<createdBy>alexs</createdBy>
+<createdTime>2024-03-26 18:05:10 UTC</createdTime>
+<ownerDesignName>biodbPractica1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
