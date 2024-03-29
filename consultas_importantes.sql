@@ -20,3 +20,12 @@ SET pr.validacion = 1
 WHERE pr.paciente_dni = '95592093'
 AND pr.medico_dni = '65112919'
 AND pr.terapia_codigo_de_terapia = 'EAGXSAZKBF';
+
+-- Insertar prescripcion (IA)
+INSERT INTO prescripcion (fecha_inicio, validacion, paciente_dni, medico_dni, terapia_codigo_de_terapia) VALUES (0, 0, 0, 0, 0);
+-- Borrar insertar paciente
+INSERT INTO persona (dni, nombre, apellidos, telefono, persona_type) VALUES (0, 0, 0, 0, 0);
+INSERT INTO paciente (dni, nss) VALUES (0, 0);
+
+DELETE FROM paciente
+WHERE dni=0;

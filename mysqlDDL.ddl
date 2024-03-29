@@ -50,7 +50,7 @@ CREATE TABLE prescripcion (
 CREATE TABLE terapia (
     codigo_de_terapia VARCHAR(30) NOT NULL,
     descripcion       VARCHAR(100),
-    duracion          DATE,
+    duracion          INT,
     PRIMARY KEY (codigo_de_terapia)
 );
 
