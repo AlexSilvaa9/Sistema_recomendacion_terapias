@@ -83,3 +83,4 @@ measure_performance(queries_before)
 # Medir rendimiento después de crear los índices invisibles
 print("\nRendimiento después de crear los índices invisibles:")
 measure_performance(queries_after)
+
