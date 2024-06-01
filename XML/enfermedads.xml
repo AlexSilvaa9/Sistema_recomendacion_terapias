@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<enfermedades>
+    <enfermedad codigo="001">
+        <nombre>Gripe</nombre>
+        <descripcion>Enfermedad viral comúnmente estacional.</descripcion>
+        <causas>
+            <causa>Virales</causa>
+            <causa>Contagio directo</causa>
+        </causas>
+        <sintomas>
+            <sintoma nombre="Fiebre" gravedad="moderada" descripcion="Elevación de la temperatura corporal."/>
+            <sintoma nombre="Tos" gravedad="moderada" descripcion="Irritación en la garganta con expulsión de mucosidad."/>
+            <sintoma nombre="Dolor de garganta" gravedad="leve" descripcion="Molestia o dolor en la garganta."/>
+        </sintomas>
+        <tratamiento>
+            <medicamento nombre="Paracetamol" dosis="500mg" frecuencia="cada 6 horas" forma="tableta" descripcion="Analgésico y antipirético."/>
+            <medicamento nombre="Descanso" instrucciones="Descansar en cama"/>
+            <medicamento nombre="Hidratación" instrucciones="Beber muchos líquidos"/>
+        </tratamiento>
+    </enfermedad>
+    <enfermedad codigo="002">
+        <nombre>Resfriado</nombre>
+        <descripcion>Enfermedad viral del tracto respiratorio superior.</descripcion>
+        <causas>
+            <causa>Virus del resfriado común</causa>
+            <causa>Contagio directo o indirecto</causa>
+        </causas>
+        <sintomas>
+            <sintoma nombre="Tos" gravedad="leve" descripcion="Expulsión de aire de los pulmones con sonidos audibles."/>
+            <sintoma nombre="Estornudos" gravedad="leve" descripcion="Expulsión súbita e involuntaria de aire por la nariz y la boca."/>
+            <sintoma nombre="Secreción nasal" gravedad="moderada" descripcion="Mucosidad nasal clara o amarillenta."/>
+        </sintomas>
+        <tratamiento>
+            <medicamento nombre="Ibuprofeno" dosis="200mg" frecuencia="cada 8 horas" forma="tableta" descripcion="Analgésico, antipirético y antiinflamatorio no esteroideo."/>
+            <medicamento nombre="Descanso" instrucciones="Descansar en casa"/>
+            <medicamento nombre="Hidratación" instrucciones="Beber líquidos calientes"/>
+        </tratamiento>
+    </enfermedad>
+    <enfermedad codigo="003">
+        <nombre>Asma</nombre>
+        <descripcion>Enfermedad crónica del sistema respiratorio.</descripcion>
+        <causas>
+            <causa>Factores genéticos</causa>
+            <causa>Factores ambientales</causa>
+        </causas>
+        <sintomas>
+            <sintoma nombre="Falta de aire" gravedad="grave" descripcion="Dificultad para respirar."/>
+            <sintoma nombre="Sibilancias" gravedad="moderada" descripcion="Sonidos silbantes al respirar."/>
+            <sintoma nombre="Tos" gravedad="leve" descripcion="Tos seca o con moco."/>
+        </sintomas>
+        <tratamiento>
+            <medicamento nombre="Inhaladores de broncodilatadores" dosis="Según prescripción médica" forma="Inhalador" descripcion="Medicamentos que relajan los músculos de las vías respiratorias."/>
+            <medicamento nombre="Corticosteroides" dosis="Según prescripción médica" forma="Tableta" descripcion="Medicamentos que reducen la inflamación de las vías respiratorias."/>
+            <medicamento nombre="Educación para el control del asma" instrucciones="Seguir las instrucciones del médico"/>
+        </tratamiento>
+    </enfermedad>
+    <enfermedad codigo="004">
+        <nombre>Diabetes tipo 2</nombre>
+        <descripcion>Trastorno metabólico crónico.</descripcion>
+        <causas>
+            <causa>Factores genéticos</causa>
+            <causa>Obesidad</causa>
+            <causa>Falta de actividad física</causa>
+        </causas>
+        <sintomas>
+            <sintoma nombre="Aumento de la sed" gravedad="moderada" descripcion="Sensación de boca seca y sed intensa."/>
+            <sintoma nombre="Aumento de la micción" gravedad="moderada" descripcion="Necesidad frecuente de orinar."/>
+            <sintoma nombre="Visión borrosa" gravedad="leve" descripcion="Pérdida de nitidez en la visión."/>
+        </sintomas>
+        <tratamiento>
+            <medicamento nombre="Metformina" dosis="1000mg" frecuencia="2 veces al día" forma="Tableta" descripcion="Medicamento oral para controlar los niveles de azúcar en la sangre."/>
+            <medicamento nombre="Insulina" dosis="Según prescripción médica" forma="Inyección" descripcion="Hormona que regula los niveles de azúcar en la sangre."/>
+            <medicamento nombre="Dietoterapia" instrucciones="Seguir una dieta baja en carbohidratos"/>
+        </tratamiento>
+    </enfermedad>
+    <enfermedad codigo="005">
+        <nombre>Hipertensión arterial</nombre>
+        <descripcion>Aumento de la presión arterial en las arterias.</descripcion>
+        <causas>
+            <causa>Factores genéticos</causa>
+            <causa>Obesidad</causa>
+            <causa>Estrés</causa>
+        </causas>
+        <sintomas>
+            <sintoma nombre="Dolor de cabeza" gravedad="leve" descripcion="Dolor en la cabeza."/>
+            <sintoma nombre="Dolor en el pecho" gravedad="moderada" descripcion="Malestar o dolor en el área del pecho."/>
+            <sintoma nombre="Zumbido en los oídos" gravedad="moderada" descripcion="Sensación de zumbido en los oídos."/>
+        </sintomas>
+        <tratamiento>
+            <medicamento nombre="Diuréticos" dosis="Según prescripción médica" forma="Tableta" descripcion="Medicamentos que aumentan la excreción de agua y sal a través de la orina."/>
+            <medicamento nombre="Bloqueadores de los canales de calcio" dosis="Según prescripción médica" forma="Tableta" descripcion="Medicamentos que relajan los vasos sanguíneos."/>
+            <medicamento nombre="Inhibidores de la enzima convertidora de angiotensina (IECA)" dosis="Según prescripción médica" forma="Tableta" descripcion="Medicamentos que dilatan los vasos sanguíneos y reducen la presión arterial."/>
+        </tratamiento>
+    </enfermedad>
+    <!-- Puedes añadir más enfermedades aquí -->
+</enfermedades>

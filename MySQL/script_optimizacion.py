@@ -35,7 +35,6 @@ def elimina_foreing_keys(cursor):
     try:
         cursor.execute("ALTER TABLE paciente_enfermedad DROP FOREIGN KEY paciente_enfermedad_ibfk_1;")
         cursor.execute("ALTER TABLE paciente_enfermedad DROP FOREIGN KEY paciente_enfermedad_ibfk_2;")
-        cursor.execute("ALTER TABLE paciente_enfermedad DROP FOREIGN KEY FK_Paciente_Enfermedad_Enfermedad;")
 
         cursor.execute("ALTER TABLE prescripcion DROP FOREIGN KEY prescripcion_ibfk_1;")
         cursor.execute("ALTER TABLE prescripcion DROP FOREIGN KEY prescripcion_ibfk_2;")

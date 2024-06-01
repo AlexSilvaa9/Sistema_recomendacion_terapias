@@ -1,5 +1,5 @@
 -- consulta para coger las enfermedades de una persona
-Select dni,descripcion
+Select dni,descripcion, p.altura,p.peso,p.genero
 from paciente p,paciente_enfermedad pe,enfermedad e
 where p.dni=pe.paciente_dni and pe.enfermedad_codigo_enfermedad=e.codigo_enfermedad and p.dni=95592093;
 
